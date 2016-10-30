@@ -14,16 +14,17 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("fxml_sample.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Hello World title");
         Button btn = new Button();
         btn.setText("Say 'Hello World'");
+        /*
         btn.setOnAction(new EventHandler<ActionEvent>() {
 
             @Override
             public void handle(ActionEvent event) {
                 System.out.println("Hello World!");
             }
-        });
+        }); */
 
         /*
         StackPane root = new StackPane();
